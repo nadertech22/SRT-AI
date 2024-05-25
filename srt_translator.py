@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key='Your OPENAI API Key goes here')
+client = OpenAI(api_key='YOUR_API_KEY_HERE')
 import re
 
 # Initialize OpenAI with your API key
