@@ -11,16 +11,21 @@ Save the Script:
 - Copy the provided script into a text editor or IDE.
 - Save the file as srt_translator.py.
 
+
 Prepare Your Environment:
 - Open your terminal.
 - Navigate to the directory where you saved srt_translator.py.
 
+
 Prepare Your Input File:
-- Make sure your input SRT file (e.g., input.srt) is in the same directory as srt_translator.py or provide the full path to it in the script.
+- Make sure to rename the file you'd like to translate to "input.srt" and place it in the same directory as the script. Once translated the new file will appear in the same directory as well with the name "output_translated.srt"
+
 
 Install Required Library:
-If you haven’t installed the OpenAI library, you can do so by running:
+If you haven’t installed the OpenAI library, you can do so by running one of the below:
 - pip3 install openai
+- python3 install openai
+
 
 Set Your OpenAI API Key:
 - Replace 'YOUR_API_KEY_HERE' in the script with your actual OpenAI API key.
@@ -28,3 +33,6 @@ Set Your OpenAI API Key:
 
 In the terminal, run the script using Python:
 - python3 srt_translator.py
+
+
+Feel free to make any changes to the script, improve it, and contribute. This is a simple open-source project.
